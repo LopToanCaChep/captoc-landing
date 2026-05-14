@@ -419,20 +419,20 @@
       </div>
 
       <!-- Mascot -->
-      <div class="order-1 md:order-2 relative h-[260px] sm:h-[320px] md:h-[460px] lg:h-[520px]">
-        <!-- soft burst -->
-        <div
-          class="hero-burst absolute left-1/2 top-[35%] -translate-x-1/2 -translate-y-1/2 w-[78%] aspect-square rounded-full bg-white/[0.06]">
+      <div class="order-1 md:order-2 relative h-[260px] sm:h-[320px] md:h-[460px] lg:h-[520px] flex justify-end items-start">
+        <div class="relative w-[85%] sm:w-[80%] md:w-[90%] max-w-[480px]">
+          <!-- soft burst -->
+          <div
+            class="hero-burst absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[110%] aspect-square rounded-full bg-white/[0.06] z-0 pointer-events-none">
+          </div>
+          <div
+            class="hero-burst absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] aspect-square rounded-full bg-cc-yellow/10 z-0 pointer-events-none">
+          </div>
+
+          <!-- the fish -->
+          <img src="assets/mascot-dragonball.png" alt="Cá Chép mascot"
+            class="hero-fish relative w-full z-10" />
         </div>
-        <div
-          class="hero-burst absolute left-1/2 top-[35%] -translate-x-1/2 -translate-y-1/2 w-[55%] aspect-square rounded-full bg-cc-yellow/10">
-        </div>
-
-
-
-        <!-- the fish -->
-        <img src="assets/mascot-dragonball.png" alt="Cá Chép mascot"
-          class="hero-fish absolute right-0 top-0 w-[85%] sm:w-[80%] md:w-[90%] max-w-[480px]" />
       </div>
     </div>
   </section>
@@ -650,27 +650,28 @@
       <!-- C: LÍ THUYẾT -->
       <a class="lift group block bg-white rounded-3xl p-7 md:p-9 shadow-soft relative overflow-hidden coming-soon">
         <span class="coming-soon-badge">🔜 Sắp ra mắt</span>
-        <!-- mascot in corner -->
-        <img src="assets/mascot-formula.png" alt=""
-          class="absolute -right-4 -bottom-4 w-32 md:w-40 rotate-[8deg] pointer-events-none select-none z-0" />
-
-        <!-- notebook preview -->
-        <div class="relative aspect-[16/9] rounded-2xl bg-cc-cream mb-6 overflow-hidden border border-cc-line">
-          <!-- ruled lines -->
-          <div class="absolute inset-0 p-5 space-y-3">
-            <div class="h-2 rounded bg-cc-blue-deep/80 w-2/3"></div>
-            <div class="h-1.5 rounded bg-cc-ink-soft/30 w-full"></div>
-            <div class="h-1.5 rounded bg-cc-ink-soft/30 w-11/12"></div>
-            <div class="h-1.5 rounded bg-cc-ink-soft/30 w-9/12"></div>
-            <div class="flex gap-2 pt-1">
-              <span
-                class="h-6 px-2 grid place-items-center rounded bg-cc-yellow font-display font-bold text-cc-ink text-xs">√14</span>
-              <span
-                class="h-6 px-2 grid place-items-center rounded bg-cc-orange text-white font-display font-bold text-xs">x²+y</span>
+        <div class="relative mb-6">
+          <!-- notebook preview -->
+          <div class="relative aspect-[16/9] rounded-2xl bg-cc-cream overflow-hidden border border-cc-line">
+            <!-- ruled lines -->
+            <div class="absolute inset-0 p-5 space-y-3">
+              <div class="h-2 rounded bg-cc-blue-deep/80 w-2/3"></div>
+              <div class="h-1.5 rounded bg-cc-ink-soft/30 w-full"></div>
+              <div class="h-1.5 rounded bg-cc-ink-soft/30 w-11/12"></div>
+              <div class="h-1.5 rounded bg-cc-ink-soft/30 w-9/12"></div>
+              <div class="flex gap-2 pt-1">
+                <span
+                  class="h-6 px-2 grid place-items-center rounded bg-cc-yellow font-display font-bold text-cc-ink text-xs">√14</span>
+                <span
+                  class="h-6 px-2 grid place-items-center rounded bg-cc-orange text-white font-display font-bold text-xs">x²+y</span>
+              </div>
             </div>
+            <!-- left margin tab -->
+            <div class="absolute left-0 top-0 bottom-0 w-1.5 bg-cc-orange"></div>
           </div>
-          <!-- left margin tab -->
-          <div class="absolute left-0 top-0 bottom-0 w-1.5 bg-cc-orange"></div>
+          <!-- mascot in corner -->
+          <img src="assets/mascot-formula.png" alt=""
+            class="absolute -right-4 -bottom-4 w-32 md:w-40 rotate-[8deg] pointer-events-none select-none z-10" />
         </div>
 
         <div class="flex items-center justify-between gap-3 mb-3">
