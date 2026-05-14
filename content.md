@@ -18,16 +18,16 @@
 
 | Field | Giá trị |
 |-------|---------|
-| Eyebrow (badge trên cùng) | Khoá Cấp Tốc · 2026 |
+| Eyebrow (badge trên cùng) | Khoá Cấp Tốc 2026 |
 | Title dòng 1 | Luyện Đề |
 | Title dòng 2 | Cấp Tốc |
 | Title dòng 3 | 2026 |
-| Mô tả | 15 buổi · Làm đề, sửa đề, xem lại — đầy đủ trong một lớp. |
+| Mô tả | 15 buổi làm đề như thi thật, sửa tại chỗ |
 | CTA chính (nút vàng) | Bắt đầu làm đề |
 | CTA phụ (nút viền) | Xem video sửa đề |
 | Stat 1 | **40** đề luyện |
 | Stat 2 | **24** video sửa |
-| Stat 3 | **10đ** mục tiêu |
+| Stat 3 | **8+** mục tiêu|
 | Mascot | assets/mascot-dragonball.png |
 
 ---
@@ -57,8 +57,8 @@
 |-------|---------|
 | Tag | Đề chẵn |
 | Tiêu đề | Đề thi về nhà |
-| Mô tả | Cày ải ở nhà, có đáp án tự đọc |
-| Footer trái | 20 đề · hạn CN |
+| Mô tả | Cày ải ở nhà, nộp phiếu chấm điểm như thi thật, có đáp án tự đọc |
+| Footer trái | 20 đề |
 | Footer phải (CTA) | Nộp bài → |
 | Link | https://loptoancachep.github.io/captoc-2026/ |
 
@@ -118,5 +118,5 @@
 
 | Field | Giá trị |
 |-------|---------|
-| Copyright | © 2026 Lớp Toán Cá Chép · Cá hông chép bài, cá chép công thức. |
+| Copyright | © 2026 Lớp Toán Cá Chép|
 | Admin link | # (ẩn, chỉ hiện khi hover) |
