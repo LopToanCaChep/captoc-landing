@@ -8,9 +8,9 @@
 | Vị trí | Text hiện tại | Link |
 |--------|--------------|------|
 | Logo | Lớp Toán Cá Chép | # |
-| Nav 1 | Bài tập | #bai-tap |
+| Nav 1 | Đề Thi | #bai-tap |
 | Nav 2 | Video | #video |
-| CTA (nút vàng) | Vào lớp → | #thuc-te |
+| CTA (nút vàng) | Toán Thực Tế | #thuc-te |
 
 ---
 
@@ -22,9 +22,9 @@
 | Title dòng 1 | Luyện Đề |
 | Title dòng 2 | Cấp Tốc |
 | Title dòng 3 | 2026 |
-| Mô tả | Khóa **LD01 → LD40** · Làm đề, sửa đề, xem lại — đầy đủ trong một lớp. |
+| Mô tả | 15 buổi · Làm đề, sửa đề, xem lại — đầy đủ trong một lớp. |
 | CTA chính (nút vàng) | Bắt đầu làm đề |
-| CTA phụ (nút viền) | Xem video buổi học |
+| CTA phụ (nút viền) | Xem video sửa đề |
 | Stat 1 | **40** đề luyện |
 | Stat 2 | **24** video sửa |
 | Stat 3 | **10đ** mục tiêu |
@@ -32,22 +32,22 @@
 
 ---
 
-## BLOCK A — BÀI TẬP
+## BLOCK A — ĐỀ THI
 
 | Field | Giá trị |
 |-------|---------|
 | Badge section | Khu vực chính |
-| Tiêu đề section | BÀI TẬP |
-| Mô tả section | Làm bài tương tác, có chấm điểm tự động. |
+| Tiêu đề section | ĐỀ THI |
+| Mô tả section | Làm đề tương tác, có chấm điểm tự động theo chuẩn tốt nghiệp 2025. |
 
 ### Card A.1 — Đề thi trên lớp
 
 | Field | Giá trị |
 |-------|---------|
-| Tag | LD lẻ |
+| Tag | Đề lẻ |
 | Tiêu đề | Đề thi trên lớp |
-| Mô tả | LD01, LD03, LD05… Làm trực tiếp, chấm liền, xem đáp án ngay sau buổi. |
-| Footer trái | 20 đề · cập nhật T7 |
+| Mô tả | Làm trực tiếp, chấm liền, thầy giải đáp tại chỗ |
+| Footer trái | Cập nhật đề 03  |
 | Footer phải (CTA) | Vào làm → |
 | Link | https://loptoancachep.github.io/captoc-2026/ |
 
@@ -55,9 +55,9 @@
 
 | Field | Giá trị |
 |-------|---------|
-| Tag | LD chẵn |
+| Tag | Đề chẵn |
 | Tiêu đề | Đề thi về nhà |
-| Mô tả | LD02, LD04, LD06… Làm trong tuần, nộp tự động, có nhắc nhở. |
+| Mô tả | Cày ải ở nhà, có đáp án tự đọc |
 | Footer trái | 20 đề · hạn CN |
 | Footer phải (CTA) | Nộp bài → |
 | Link | https://loptoancachep.github.io/captoc-2026/ |
@@ -66,11 +66,11 @@
 
 | Field | Giá trị |
 |-------|---------|
-| Tag | (icon mũi tên) |
+| Tag | Tự chọn |
 | Tiêu đề | Ôn tập chuyên đề |
 | Mô tả | Phân theo chuyên đề: Hàm số, Tích phân, Số phức, OXYZ… Làm vừa sức. |
 | Footer trái | 8 chuyên đề |
-| Footer phải (CTA) | Khám phá |
+| Footer phải (CTA) | Tự luyện |
 | Link | https://loptoancachep.github.io/chuyende-playlist/ |
 
 ---
@@ -80,8 +80,8 @@
 | Field | Giá trị |
 |-------|---------|
 | Tiêu đề | VIDEO |
-| Badge | 24 video |
-| Mô tả | Xem lại buổi học, sửa đề từng câu một — tua tới đúng phút cần xem. |
+| Badge | 15 buổi học |
+| Mô tả | Xem lại sửa đề, cá nhân hóa tua tới đúng phút cần xem. |
 | CTA | Mở thư viện video → |
 | Duration hiển thị | 12:48 |
 | Formula text | f'(x) = lim… |
@@ -94,9 +94,9 @@
 | Field | Giá trị |
 |-------|---------|
 | Tiêu đề | LÍ THUYẾT |
-| Badge | A5 · 6mm |
-| Mô tả | Đọc trước & chép bài. Bố cục y hệt vở Cá Chép — chép xong, là thuộc. |
-| CTA | Mở tài liệu → |
+| Badge | A5 · Tổng hợp 10-11-12 |
+| Mô tả |  Dùng để xem lại khi ở nhà, không dùng trong lúc làm đề |
+| CTA | Truy cập tài liệu → |
 | Trạng thái | 🔜 Sắp ra mắt |
 
 ---
@@ -105,11 +105,11 @@
 
 | Field | Giá trị |
 |-------|---------|
-| Badge section | Khu vực mở rộng |
+| Badge section | Khu vực tương tác |
 | Tiêu đề dòng 1 | BÀI TOÁN |
 | Tiêu đề dòng 2 | THỰC TẾ |
-| Mô tả | Mô hình ứng dụng, đề tham khảo từ tình huống đời sống — kinh tế, vật lí, xây dựng, dịch tễ. |
-| Tag pills | Lãi kép, Tối ưu hoá, Vật lí, Mô hình dân số |
+| Mô tả | Mô hình ứng dụng đạo hàm - tích phân, đề tham khảo từ tình huống đời sống — kinh tế, vật lí, xây dựng, dịch tễ. |
+| Tag pills | Tối ưu hoá, Lãi suất , Vật lí, Mô hình dân số |
 | Trạng thái | 🔜 Sắp ra mắt |
 
 ---
